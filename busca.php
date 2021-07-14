@@ -23,6 +23,25 @@ $sth = $pdo->query('SELECT * FROM bd_avaliacao WHERE nomemsc LIKE \''.$nome.'\''
 	<title>Resultado da busca</title>
 </head>
 <body>
+
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container px-3">
+            <a class="navbar-brand" href="index.html"><img class="logo7k" src="assets/img/logo7k.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <!--<li class="nav-item"><a class="nav-link" href="MPD1.html">MPD1</a></li>
+                        <li class="nav-item"><a class="nav-link" href="MPD2.html">MPD2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="MPD3.html">MPD3</a></li>
+                        <li class="nav-item"><a class="nav-link">-</a></li>-->
+                    <li class="nav-item"><a class="nav-link" href="avaliacao.php">Avaliações</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cadastro.php">cadastro</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
 <div class="centraliza2">
     <div class="centraliza3">
     <div class="centraliza4">
